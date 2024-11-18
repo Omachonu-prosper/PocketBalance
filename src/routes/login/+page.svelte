@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Login | PocketBalance</title>
+</svelte:head>
+
 <form class="my-20">
     <div class="container mx-auto p-4 max-w-sm  border-2 rounded-xl border-slate-900">
         <h2 class="text-4xl my-4 text-center">Login</h2>
