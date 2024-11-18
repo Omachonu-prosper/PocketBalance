@@ -8,8 +8,8 @@
   <title>Dashboard | PocketBalance</title>
 </svelte:head>
 
-<section class="max-w-md container mx-auto p-3">
-    <header class="flex pt-3 items-center">
+<section class="max-w-md container mx-auto p-3 pt-1">
+    <header class="flex pt-1 items-center">
         <h2 class="text-xl flex-auto">Hello User</h2>
 
         <Icon icon="solar:moon-stars-bold" class="text-3xl" />
