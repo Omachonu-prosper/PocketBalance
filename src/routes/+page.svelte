@@ -1,6 +1,7 @@
 <script>
     import Icon from '@iconify/svelte';
     import AssetCard from '$lib/components/AssetCard.svelte';
+    import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -24,10 +25,6 @@
         <AssetCard type='Savings' amount="30,000" button1="Save" button2="Withdraw"
             cardColour='bg-neutral-700' buttonColour='bg-neutral-900' currency='$' />
     </main>
-
-    <!-- <footer>
-        <div>
-            
-        </div>
-    </footer> -->
 </section>
+
+<Footer active='home' />
